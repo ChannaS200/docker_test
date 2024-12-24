@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS php_demo1;
+
+USE php_demo1;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
